@@ -14,75 +14,121 @@
 
 <body>
 
-<header>
-<!-- barre de navigation  -->
-    <nav class="navbar navbar-light bg-light ">
-        <!-- logo rbnb  -->
-        <i class="fa-brands fa-airbnb text-danger">airbnb</i>
-
-<!-- Formulaire  -->
-<div class="container-fluid border border-grey rounded-pill w-25">
-    <form class="d-flex">
-        <input class="form-control me-2 border-0 border-end " type="Destination" placeholder="Destination" aria-label="Search">
-        <input class="form-control me-2 border-0 border-end" type="Destination" placeholder="Arrivée" aria-label="Search">
-        <input class="form-control me-2 border-0 border-end" type="Destination" placeholder="Voyageurs" aria-label="Search">
-        <!-- bouton loupe  -->
-        <button class="btn btn-outline-success p-3 mb-2 bg-danger text-white rounded-circle" type="search"><i
-                class="fa-solid fa-magnifying-glass"></i></button>
-     
+    <header>
 
 
-    </form>
+        <!-- ***********************************Barre nav partie haute ************************* -->
 
+        <div class="row">
 
-</div>
+            <!-- ****************************Logo airbn**************************************  -->
 
+            <!--  <i class="fa-solid fa-sliders"></i></div>  -->
+            <div class="col-4"><img src="logorbnb.png" alt="logo"></div>
 
-        <div class="container-fluid">
-            <a class="nav-link dropdown-toggle text-body border border-grey rounded-pill" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Prix
-            </a>
-            <a class="nav-link dropdown-toggle text-body border border-grey rounded-pill" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Type de logement
-            </a>
-            <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">wifi
-            </a>
-            <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Cuisine
-            </a>
-            <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Jacuzzi
-            </a>
-            <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Lave-linge
-            </a>
-            <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Parking gratuit
-            </a>
-            <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Arrivée autonome
-            </a>
-            <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Sèche-linge
-            </a>
-            <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Piscine
-            </a>
-            <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Fer à repasser
-            </a>
-            <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Espace de travail dédié
-            </a>
-            <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Cheminée
-            </a>
-            <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Petit déjeuner
-            </a>
-            <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Filtres
-            </a>
+            
+            <!-- ************************************************************************************* -->
+            <!--********************* FORMULAIRE milieu haut nav *********************************** -->
+            <div class="col-4">
+                <form class="d-flex border border-grey rounded-pill shadow p-3 mb-5 bg-body rounded ">
+                    <input class="form-control me-2 border-0 border-end" type="Destination" placeholder="Destination"
+                        aria-label="Search">
+                    <input class="form-control me-2 border-0 border-end" type="Destination" placeholder="Arrivée"
+                        aria-label="Search">
+                    <input class="form-control me-2 border-0 border-end" type="Destination" placeholder="Voyageurs"
+                        aria-label="Search">
+                    <!-- bouton loupe  -->
+                    <button class="btn btn-outline-success p-3 mb-2 bg-danger text-white rounded-circle"
+                        type="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <!-- Fin bouton loupe  -->
+                </form>
+            </div>
+            <!-- *******************************Fin formulaire haut nav*********************************  -->
+            <!-- ******************************************************************** -->
+            <div class="col-4 float-end">
+                <button class="btn float-end">Devenez hôte </button>
+                <button class="btn float-end"><i class="fa-solid fa-basketball"></i></button>
+                <button class="btn float-end"><i class="fa-solid fa-user"></i></button>
+            </div>
         </div>
+        <!--******************** Fin barre nav partie haute ********************************** -->
 
 
-        
-        
-    
-    </nav>
 
 
-</header>
+
+        <!-- partie basse barre nav  -->
+
+        <!-- <a class="nav-link dropdown-toggle text-body border border-grey rounded-pill" href="#"
+                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Prix
+                </a>
+                <a class="nav-link dropdown-toggle text-body border border-grey rounded-pill" href="#"
+                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Type de logement
+                </a>
+                <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">wifi
+                </a>
+                <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page"
+                    href="#">Cuisine
+                </a>
+                <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page"
+                    href="#">Jacuzzi
+                </a>
+                <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page"
+                    href="#">Lave-linge
+                </a>
+                <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page"
+                    href="#">Parking
+                    gratuit
+                </a>
+                <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page"
+                    href="#">Arrivée
+                    autonome
+                </a>
+                <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page"
+                    href="#">Sèche-linge
+                </a>
+                <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page"
+                    href="#">Piscine
+                </a>
+                <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Fer à
+                    repasser
+                </a>
+                <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Espace
+                    de
+                    travail dédié
+                </a>
+                <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page"
+                    href="#">Cheminée
+                </a>
+                <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page" href="#">Petit
+                    déjeuner
+                </a>
+                <a class="nav-link active text-body border border-grey rounded-pill" aria-current="page"
+                    href="#">Filtres
+                </a>
+             -->
+
+
+
+        <article class="">
+            <button class="btn border rounded-pill m-2">bonjour <i class="fa-solid fa-angle-down"></i></button>
+            <button class="btn border rounded-pill m-2">bonjour</button>
+            <button class="btn border rounded-pill m-2">bonjour</button><button
+                class="btn border rounded-pill m-2">bonjour</button><button
+                class="btn border rounded-pill m-2">bonjour</button><button
+                class="btn border rounded-pill m-2">bonjour</button><button
+                class="btn border rounded-pill m-2">bonjour</button><button
+                class="btn border rounded-pill m-2">bonjour</button><button
+                class="btn border rounded-pill m-2">bonjour</button><button class="btn border rounded-pill m-2"><i
+                    class="fa-solid fa-folder-tree"></i>bonjour</button>
+        </article>
+
+
+
+
+    </header>
 </body>
 
 </html>
